@@ -23,18 +23,16 @@
 }
 }
 .page__app {
-    margin: 0 auto 0;
+    margin: 1rem auto 0;
 }
 .todo-app {
     width: 500px;
 }
-.task {
-    width: 56%;
-    display: inline-block;
-    flex-grow: 1
-}
-.task-row-wrapper {
+.create-task__row-wrapper {
     display: flex;
+}
+.create-task__input {
+    flex-grow: 1
 }
 ul {
     margin:0;
@@ -60,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='new-task'] {
+.create-task__heading {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -86,12 +84,9 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for='new-task'] {
+.create-task__heading {
     display: block;
     margin: 0 0 20px;
-}
-input#new-task {
-    width: 318px;
 }
 
 /* Task list */

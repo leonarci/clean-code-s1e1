@@ -20,13 +20,15 @@
       </a>
     </div>
     <div class="page__app todo-app">
-      <p id="topSectionForAddingElementToList">
-        <label for="new-task">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task" class="task" type="text">
-          <button>Add</button>
+      <div class="todo-app__create-task create-task">
+        <label class="create-task__heading" for="create-task">Add Item</label>
+        <div class="create-task__row-wrapper">
+          <input id="create-task"
+                 class="create-task__input"
+                 type="text">
+          <button class="create-task__button">Add</button>
         </div>
-      </p>
+      </div>
       <h3>Todo</h3>
       <ul id="incompleteTasks">
         <li>
