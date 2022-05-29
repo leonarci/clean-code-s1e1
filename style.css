@@ -1,26 +1,26 @@
 /* Basic Style */
 .page {
-    background-color: #f8f8f8;
-    color: #333;
-    font-family: Lato, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
 }
 
 .page__info {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .how-to-info {
-    width: 500px;
-    text-align: right;
+  width: 500px;
+  text-align: right;
 }
 
 .how-to-info__image {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .how-to-info__link {
-    font-family: fantasy, cursive;
+  font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
@@ -32,134 +32,134 @@
 }
 
 .page__app {
-    margin: 1rem auto 0;
+  margin: 1rem auto 0;
 }
 
 .todo-app {
-    width: 500px;
+  width: 500px;
 }
 
 .create-task__row-wrapper {
-    display: flex;
+  display: flex;
 }
 
 .tasks {
-    margin: 0;
-    padding: 0px;
-    list-style: none;
+  margin: 0;
+  padding: 0px;
+  list-style: none;
 }
 
 .task__checkbox,
 .task__input {
-    outline: none;
+  outline: none;
 }
 
 .button {
-    background: none;
-    border: 0px;
-    color: #888;
-    font-size: 15px;
-    width: 60px;
-    font-family: Lato, sans-serif;
-    cursor: pointer;
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
 }
 
 .button:hover {
-    color: #3a3A3a;
+  color: #3a3A3a;
 }
 
 /* Heading */
 .create-task__heading,
 .in-progress__heading,
 .completed__heading {
-    color: #333;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 2px solid #333;
-    padding: 30px 0 10px;
-    margin: 0;
-    text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .create-task__input,
 .task__input {
-    flex-grow: 1;
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
+  flex-grow: 1;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #dDd;
+  background: #FFF;
+  border-radius: 6px;
+  font-family: Lato, sans-serif;
+  color: #888;
 }
 
 .create-task__input,
 .task__input:focus {
-    color: #333;
+  color: #333;
 }
 
 /* New Task */
 .create-task__heading {
-    display: block;
-    margin: 0 0 20px;
+  display: block;
+  margin: 0 0 20px;
 }
 
 /* Task list */
 .task {
-    overflow: hidden;
-    padding: 20px 0;
-    border-bottom: 1px solid #eee;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .task__checkbox {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .task__name {
-    flex-grow: 1;
-    padding-left: 10px;
-    box-sizing: border-box;
-    font-size: 18px;
-    width: 226px;
+  flex-grow: 1;
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
 }
 
 .task__input {
-    width: 226px;
+  width: 226px;
 }
 
 .button__image {
-    height: 2em;
-    transform: rotateZ(45deg);
-    transition: transform 200ms ease-in;
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
 }
 
 .button__image:hover {
-    transform: rotateZ(0);
+  transform: rotateZ(0);
 }
 
 /* Completed */
 .completed__tasks .task__name {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
 .task__input {
-    display: none;
+  display: none;
 }
 
 .task_mode_edit .task__input {
-    display: inline-block;
-    width: 224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .task_mode_edit .task__name {
-    display: none;
+  display: none;
 }
