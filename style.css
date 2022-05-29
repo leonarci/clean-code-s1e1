@@ -1,13 +1,14 @@
 /* Basic Style */
-body {
+.page {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
 }
+.page__info {
+    margin: 0 auto;
+}
 .how-to-info {
     width: 500px;
-    margin: 0 auto;
-    display: block;
     text-align: right;
 }
 .how-to-info__image {
@@ -21,10 +22,11 @@ body {
 .how-to-info { text-align: center;
 }
 }
-.centered-main-page-element {
-    display: block;
-    width: 500px;
+.page__app {
     margin: 0 auto 0;
+}
+.todo-app {
+    width: 500px;
 }
 .task {
     width: 56%;
