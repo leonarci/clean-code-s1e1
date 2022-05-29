@@ -108,7 +108,7 @@
     width: 226px;
 }
 .task__input {
-    width: 226px
+    width: 226px;
 }
 .button__image {
     height: 2em;
@@ -121,18 +121,18 @@
 
 /* Completed */
 .completed__tasks .task__name {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .task__input {
-    display:none
+    display:none;
 }
 
 .task_mode_edit .task__input {
     display:inline-block;
-    width:224px
+    width:224px;
 }
 
 .task_mode_edit .task__name {
