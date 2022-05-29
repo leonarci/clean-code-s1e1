@@ -19,7 +19,7 @@
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 .how-to-info { text-align: center;
 }
 }
@@ -33,13 +33,13 @@
     display: flex;
 }
 .tasks {
-    margin:0;
+    margin: 0;
     padding: 0px;
-    list-style:none;
+    list-style: none;
 }
 
-.task__checkbox, .task__input{
-    outline:none;
+.task__checkbox, .task__input {
+    outline: none;
 }
 .button {
     background: none;
@@ -127,14 +127,14 @@
 
 /* Edit Task */
 .task__input {
-    display:none;
+    display: none;
 }
 
 .task_mode_edit .task__input {
-    display:inline-block;
-    width:224px;
+    display: inline-block;
+    width: 224px;
 }
 
 .task_mode_edit .task__name {
-    display:none;
+    display: none;
 }
