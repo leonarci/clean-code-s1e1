@@ -1,4 +1,4 @@
-/* Basic Style */
+/* Page Block */
 .page {
   background-color: #f8f8f8;
   color: #333;
@@ -9,6 +9,11 @@
   margin: 0 auto;
 }
 
+.page__app {
+  margin: 1rem auto 0;
+}
+
+/* How To Info Block */
 .how-to-info {
   width: 500px;
   text-align: right;
@@ -31,88 +36,33 @@
 
 }
 
-.page__app {
-  margin: 1rem auto 0;
-}
-
+/* TODO App Block */
 .todo-app {
   width: 500px;
 }
 
-.create-task__row-wrapper {
-  display: flex;
-}
-
-.tasks {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.create-task__input,
-.task__checkbox,
-.task__input {
-  outline: none;
-}
-
-.button {
-  background: none;
-  border: 0;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, Verdana, sans-serif;
-  cursor: pointer;
-}
-
-.button:hover {
-  color: #3a3a3a;
-}
-
-/* Heading */
-.create-task__label,
-.in-progress__heading,
-.completed__heading {
-  color: #333;
-  font-weight: 700;
-  font-size: 15px;
-  border-bottom: 2px solid #333;
-  padding: 30px 0 10px;
-  margin: 0;
-  text-transform: uppercase;
+/* Create Task Block*/
+.create-task__heading {
+  display: block;
+  margin: 0 0 20px;
 }
 
 .create-task__label {
   display: block;
 }
 
-.create-task__input,
-.task__input {
-  flex-grow: 1;
+.create-task__row-wrapper {
+  display: flex;
+}
+
+/* Tasks Block */
+.tasks {
   margin: 0;
-  font-size: 18px;
-  line-height: 18px;
-  height: 21px;
-  padding: 0 9px;
-  border: 1px solid #ddd;
-  background: #fff;
-  border-radius: 6px;
-  font-family: Lato, Verdana, sans-serif;
-  color: #888;
+  padding: 0;
+  list-style: none;
 }
 
-.create-task__input,
-.task__input:focus {
-  color: #333;
-}
-
-/* New Task */
-.create-task__heading {
-  display: block;
-  margin: 0 0 20px;
-}
-
-/* Task list */
+/* Task Item */
 .task {
   overflow: hidden;
   padding: 20px 0;
@@ -139,23 +89,13 @@
   width: 226px;
 }
 
-.button__image {
-  height: 2em;
-  transform: rotateZ(45deg);
-  transition: transform 200ms ease-in;
-}
-
-.button__image:hover {
-  transform: rotateZ(0);
-}
-
-/* Completed */
+/* Completed Task State*/
 .completed__tasks .task__name {
   text-decoration: line-through;
   color: #888;
 }
 
-/* Edit Task */
+/* Edit Task State*/
 .task__input {
   display: none;
 }
@@ -167,4 +107,64 @@
 
 .task_mode_edit .task__name {
   display: none;
+}
+
+/* Button */
+.button {
+  background: none;
+  border: 0;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #3a3a3a;
+}
+
+.button__image {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.button__image:hover {
+  transform: rotateZ(0);
+}
+
+/* Heading */
+.create-task__label,
+.in-progress__heading,
+.completed__heading {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Input */
+.create-task__input,
+.task__input {
+  flex-grow: 1;
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: Lato, Verdana, sans-serif;
+  color: #888;
+  outline: none;
+}
+
+.create-task__input,
+.task__input:focus {
+  color: #333;
 }
