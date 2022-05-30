@@ -12,15 +12,17 @@
   </head>
 
   <body class="page">
-    <div class="page__info how-to-info">
+    <figure class="page__info how-to-info">
       <img class="how-to-info__image" src="./eisenhower-matrix.jpg">
-      <a class="how-to-info__link"
-         href="https://goal-life.com/page/method/matrix-eisenhower">
-         Want more details?
-      </a>
-    </div>
-    <div class="page__app todo-app">
-      <div class="todo-app__create-task create-task">
+      <figcaption class="how-to-info__caption">
+        <a class="how-to-info__link"
+           href="https://goal-life.com/page/method/matrix-eisenhower">
+           Want more details?
+        </a>
+      </figcaption>
+    </figure>
+    <main class="page__app todo-app">
+      <section class="todo-app__create-task create-task">
         <label class="create-task__heading" for="create-task">Add Item</label>
         <div class="create-task__row-wrapper">
           <input class="create-task__input"
@@ -28,8 +30,8 @@
                  type="text">
           <button class="create-task__button button">Add</button>
         </div>
-      </div>
-      <div class="todo-app__in-progress in-progress">
+      </section>
+      <section class="todo-app__in-progress in-progress">
         <h3 class="in-progress__heading">Todo</h3>
         <ul class="in-progress__tasks tasks" id="in-progress__tasks">
           <li class="in-progress__task task">
@@ -51,8 +53,8 @@
             </button>
           </li>
         </ul>
-      </div>
-      <div class="todo-app__completed completed">
+      </section>
+      <section class="todo-app__completed completed">
         <h3 class="completed__heading">Completed</h3>
         <ul class='completed__tasks tasks' id="completed__tasks">
           <li class="completed__task task">
@@ -65,8 +67,8 @@
             </button>
           </li>
         </ul>
-      </div>
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 
