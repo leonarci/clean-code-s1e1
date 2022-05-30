@@ -69,7 +69,7 @@
 }
 
 /* Heading */
-.create-task__heading,
+.create-task__label,
 .in-progress__heading,
 .completed__heading {
   color: #333;
@@ -79,6 +79,10 @@
   padding: 30px 0 10px;
   margin: 0;
   text-transform: uppercase;
+}
+
+.create-task__label {
+  display: block;
 }
 
 .create-task__input,
