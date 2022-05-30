@@ -164,7 +164,7 @@
   outline: none;
 }
 
-.create-task__input,
+.create-task__input:focus,
 .task__input:focus {
   color: #333;
 }
