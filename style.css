@@ -56,10 +56,10 @@
 }
 
 /* Tasks Block */
-.tasks {
+.in-progress__tasks,
+.completed__tasks {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 /* Task Item */
