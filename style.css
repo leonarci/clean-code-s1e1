@@ -64,12 +64,9 @@
 
 /* Task Item */
 .task {
-  overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -82,11 +79,6 @@
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
-}
-
-.task__input {
-  width: 226px;
 }
 
 /* Completed Task State*/
@@ -102,7 +94,6 @@
 
 .task_mode_edit .task__input {
   display: inline-block;
-  width: 224px;
 }
 
 .task_mode_edit .task__name {
