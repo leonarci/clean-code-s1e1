@@ -49,6 +49,7 @@
   list-style: none;
 }
 
+.create-task__input,
 .task__checkbox,
 .task__input {
   outline: none;
