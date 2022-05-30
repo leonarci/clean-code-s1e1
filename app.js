@@ -160,6 +160,10 @@ addButton.onclick=addTask;
 addButton.addEventListener("click",addTask);
 addButton.addEventListener("click",ajaxRequest);
 
+taskInput.addEventListener('keypress', (event) =>  {
+    if(taskInput.value && event.code === "Enter") addTask();
+})
+
 
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
     console.log("bind list item events");
